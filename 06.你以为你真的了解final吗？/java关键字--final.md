@@ -185,7 +185,7 @@ read()方法主要包含了三个操作：
 
 1. 初次读引用变量finalDemo;
 2. 初次读引用变量finalDemo的普通域a;
-3. 初次读引用变量finalDemo的final与b;
+3. 初次读引用变量finalDemo的final域b;
 
 假设线程A写过程没有重排序，那么线程A和线程B有一种的可能执行时序为下图：
 
